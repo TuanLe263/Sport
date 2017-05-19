@@ -20,4 +20,31 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  layouts:
+    header:
+      login: "Log in"
+    footer:
+      content: "2016 - 2017 T&H Company. All rights reserved"
+      categories: "Categories"
+      services: "Services"
+      offer: "Offers"
+      men: "Men"
+      women: "Women"
+      sale: "Sale"
+      comings: "Coming soon"
+      new: "New"
+      ship_infor: "Shipping infor"
+      contact: "Contact us"
+    application:
+      title: "Sport Shopping"
+  pages:
+    home:
+      title: "Home"
+      content: "Welcome to the Sport Shopping"
+      signup: "Sign up now!"
+    about:
+      title: "About"
+      content: "About pages"
+    contact:
+      title: "Contact"
+      content: "Contact pages"
