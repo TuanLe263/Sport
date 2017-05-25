@@ -48,3 +48,7 @@ en:
     contact:
       title: "Contact"
       content: "Contact pages"
+  devise:
+    passwords:
+      new:
+        reset_pass: "Reset Password"
