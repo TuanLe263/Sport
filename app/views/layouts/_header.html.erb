@@ -5,7 +5,13 @@
         <li><%= link_to t("pages.home.title"), root_path %></li>
         <li><%= link_to t("pages.about.title"), page_path(page: "about") %></li>
         <li><%= link_to t("pages.contact.title"), page_path(page: "contact") %></li>
-        <li><%= link_to t(".login"), "#" %></li>
+
+        <% if user_signed_in? %>
+          <li><%= current_user.email %></li>
+          <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
+        <% else %>
+        <li><%= link_to "Login", new_user_session_path %></li>
+        <% end %>
       </ul>
     </nav>
   </div>
