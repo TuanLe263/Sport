@@ -1,28 +1,27 @@
-<footer class="footer">
-  <small>
+<hr>
+<footer class="footer ">
+  <small class="col-md-4">
     &copy;<%= t ".content" %>
   </small>
-  <nav>
+  <div class="col-md-8">
     <ul>
-      <li><%= t ".categories" %>
-        <ul>
-          <li><%= link_to t(".women"), "#" %></li>
-          <li><%= link_to t(".men"), "#" %></li>
-        </ul>
-      </li>
-      <li><%= t ".offer" %>
-        <ul>
-          <li><%= link_to t(".sale"), "#" %></li>
-          <li><%= link_to t(".comings"), "#" %></li>
-          <li><%= link_to t(".new"), "#" %></li>
-        </ul>
-      </li>
-      <li><%= t ".services" %>
-        <ul>
-          <li><%= link_to t(".ship_infor"), "#" %></li>
-          <li><%= link_to t(".contact"), "#" %></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
+    <div class="col-md-4">
+      <h4><%= t ".categories" %></h4>
+      <%= link_to t(".women"), "#" %><br>
+      <%= link_to t(".men"), "#" %>
+    </div>
+
+    <div class="col-md-4">
+      <h4><%= t ".offer" %></h4>
+      <%= link_to t(".sale"), "#" %><br>
+      <%= link_to t(".comings"), "#" %><br>
+      <%= link_to t(".new"), "#" %>
+    </div>
+
+    <div class="col-md-4">
+      <h4><%= t ".services" %></h4>
+      <%= link_to t(".ship_infor"), "#" %><br>
+      <%= link_to t(".contact"), "#" %>
+    </div>
+  </div>
 </footer>
