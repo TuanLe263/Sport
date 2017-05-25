@@ -23,6 +23,7 @@ en:
   layouts:
     header:
       login: "Log in"
+      logout: "Log out"
     footer:
       content: "2016 - 2017 T&H Company. All rights reserved"
       categories: "Categories"
